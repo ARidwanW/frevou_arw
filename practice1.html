@@ -27,10 +27,12 @@
     <main class="main">
         <!--=============== FORM ===============-->
         <section class="form section">
-            <div class="form__container container">
-                <form action="" method="post" class="form__belajar">
+            <div class="form__container">
+                <div class="header__form">
                     <h1 class="judul__form">Form Belajar</h1>
                     <p class="desc__form">Ini adalah website latihan pertama</p>
+                </div>
+                <form action="" method="post" class="form__belajar">
                     <label for="nama">Nama:</label>
                     <input type="text" id="nama" name="nama" maxlength="30" placeholder="Nama"><br>
                     <label for="tanggal_lahir">Tanggal Lahir:</label>
@@ -41,7 +43,7 @@
                     <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Perempuan">
                     <label for="jenis_kelamin">Perempuan</label><br>
                     <label for="pesan">Pesan:</label>
-                    <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Pesan"></textarea><br>
+                    <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea><br>
                     <input type="submit" value="Submit" class="submit">
                 </form>
             </div>
@@ -49,7 +51,7 @@
 
         <!--=============== TABLE ===============-->
         <section class="table section">
-            <div class="table__container container">
+            <div class="table__container">
                 <table>
                     <th>Nama</th>
                     <th>Tanggal Lahir</th>

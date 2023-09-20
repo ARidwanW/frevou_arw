@@ -1,3 +1,72 @@
+header {
+    padding-bottom: 10rem;
+}
+
+.home__link {
+    margin-left: 2rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.form__container {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    display: grid;
+    width: 500px;
+    /* margin-left: 4rem; */
+}
+
+.header_form {
+    display: inline-flex;
+}
+
+.judul__form {
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.desc_form {
+    /* display: inline; */
+    font-size: 1rem;
+    /* text-align: center; */
+}
+
+.form__belajar {
+    padding: 2rem;
+    /* border: 1px solid #ccc;
+    border-radius: 0.5rem; */
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
 textarea {
     vertical-align: text-top;
+    /* resize: none; */
 }
