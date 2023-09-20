@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/ARW Creative.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ 
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Practice 1 - frevou_arw</title>
+</head>
+<body>
+
+    <nav class="container">
+        <img src="../../assets/img/ARW Creative.png" alt="logo" class="logo" width="100" height="100">
+
+        <div class="home">Home</div>
+        <div class="search">Search</div>
+        <div class="logout">Logout</div>
+    </nav>
+
+   <div class="heading">
+        <h1>Form Belajar</h1>
+        <p>Ini adalah website latihan pertama</p>
+    </div>
+
+    <main>
+
+        <div>
+            <form action="" method="post" class="form__belajar">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" maxlength="30" placeholder="Nama"><br>
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                <input type="text" name="tanggal_lahir" id="tanggal_lahir" placeholder="Tanggal Lahir"><br>
+                <label for="jenis_kelamin">Jenis Kelamin:</label>
+                <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Laki-Laki">
+                <label for="jenis_kelamin">Laki-Laki</label>
+                <input type="radio" name="jenis_kelamin" id="jenis_kelamin" value="Perempuan">
+                <label for="jenis_kelamin">Perempuan</label><br>
+                <label for="pesan">Pesan:</label>
+                <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea><br>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Pesan</th>
+                    <th>Profile</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Ada Lovelace</td>
+                    <td>December 10, 1815</td>
+                    <td>Perempuan</td>
+                    <td>Belajar Buat Website</td>
+                    <td><a href="" target="_blank" rel="noopener noreferrer">Klik Di sini</a></td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>Grace Hopper</td>
+                    <td>December 9, 1906</td>
+                    <td>Perempuan</td>
+                    <td>Hello World</td>
+                    <td><a href="" target="_blank" rel="noopener noreferrer">Klik Di sini</a></td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>Margaret Hamilton</td>
+                    <td>August 17, 1936</td>
+                    <td>Perempuan</td>
+                    <td>Test Dulu</td>
+                    <td><a href="" target="_blank" rel="noopener noreferrer">Klik Di sini</a></td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>Joan Clarke</td>
+                    <td>June 24, 1917</td>
+                    <td>Laki-Laki</td>
+                    <td>Selalu Semangat</td>
+                    <td><a href="" target="_blank" rel="noopener noreferrer">Klik Di sini</a></td>
+                    <td>Delete</td>
+                </tr>
+            </table>
+        </div>
+
+    </main>
+    
+    <footer>
+        <p>Alwandia FSE 2023</p>
+    </footer>
+</body>
+</html>

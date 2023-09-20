@@ -1,0 +1,43 @@
+.container > div {
+    display: inline-flex;
+}
+
+.logo {
+    width: 50;
+    height: 50;
+}
+
+.heading {
+    display: block;
+}
+
+
+main {
+    flex-direction: row;
+    display: flex;
+}
+
+div {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+table, th, td {
+    border: 2px solid #d6d6d6;
+    border-collapse: collapse;
+    width: 720px;
+}
+
+th {
+    background-color: #e0e0e0;
+}
+
+td {
+    text-align: center;
+}
+
+footer {
+    text-align: end;
+}
