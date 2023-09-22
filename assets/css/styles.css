@@ -1,3 +1,134 @@
+/*=============== HEADER ===============*/
+.header {
+    display: flex;
+    justify-content: space-between;     /* *tempatkan item di ujung kiri dan kanan */
+    align-items: center;                /* *sejajarkan antar item */
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 1rem;                /* *sudut border */
+    /* background-color: #898989; */
+    padding: 10px;
+    margin: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5e1eff;
+}
+
 .nav__container {
-    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.input__search {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#search {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.search__icon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.profile__link {
+    color: #5e1eff;
+    text-decoration: none;
+    border: 3px solid #5e1eff48;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.profile__link:hover {
+    border: 3px solid #5e1eff;
+    font-weight: bold;
+}
+
+/*=============== TITLE ===============*/
+.title__container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.title {
+    background-color: #5e1eff31;
+    border-radius: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*=============== MAIN ===============*/
+.main {
+    display: flex;
+    justify-content: center;    /* *horizontal tengah layar */
+    /* align-items: last baseline;        *item terakhir sejajar bawah dengan item sebelumnya di dalam main */
+    /* height: 50vh; */
+    /* border: 1px solid black; */
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+
+.container {                    /* *beri jarak antara form dan table */
+    /* margin-top: 10px; */
+    padding: 50px;
+}
+
+/*=============== FORM ===============*/
+
+.header__form {
+    text-align: left;
+}
+
+.judul__form {
+    margin-bottom: 0;
+}
+
+.desc__form {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+/*=============== TABLE ===============*/
+.table__container{
+    padding-top: 150px;
+}
+
+table {
+    border: 1px solid black;    /* *border luar table */
+    border-collapse: collapse;      /* *border menyatu dengan th td */  
+}
+
+th {
+    background-color: #ccc;
+}
+
+th, td {
+    border: 1px solid #000000;  /* *warna di atas border table horizontal */
+    padding: 20px 1px;                  /* *jarak border ke item (text) */
+    text-align: center;             /* *tiap text di tengah column */
 }
