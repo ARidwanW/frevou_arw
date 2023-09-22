@@ -150,10 +150,21 @@ textarea {
 
 .form__row .form__input.jenis__kelamin {
     width: 316px;
+    display: flex;
+    align-items: center;
 }
 
 .form__row .form__label.pesan {
     align-self: flex-start;
+}
+
+.form__row .form__input.pesan {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form__row .form__input.pesan label {
+    margin-right: 4px;
 }
 
 textarea {
